@@ -1,0 +1,58 @@
+\chapter{Projekt}
+\section{Projektbeschreibung iSpine}
+Im \glqq Spine\grqq Projekt soll in einer Studie herausgefunden werden ob sich Patienten über eine Handy-App motivieren lassen sich mehr zu bewegen.
+Bei den Probanden handelt sich zu meist um Personen die sich nur wenig bewegen. In der ersten Studie sollen die Probanden eine gewisse Zeit zugriff auf die Daten haben, den gleichen Zeitraum sollen Sie keine Zugriff haben. Die Daten werden aber weiterhin aufgezeichnet. Wichtig hierbei ist es dabei herauszufinden ob die Patienten durch die App motiviert werden sich mehr zu bewegen.
+
+Die Entwicklung erfolgt hierbei in Kooperation mit dem Dänischen Partner \glqq Sens-motion\grqq. Wir die Intermedcon sind dabei für die entwicklung der App zuständig. Sollen die Daten von einer web-api abrufen und für den Patienten ansprechend visualisieren. Der Sense-motion ist einerseits für die Sensoren zuständig, sowie dass bereitstellen der Daten über die Api.
+\section{Teammitglieder und deren Aufgaben}
+Beim iSpine Projekt handelt sich um die erst native Android-App die von der Intermedcon entwickelt wurde. Daher wurde das Team auch erst kurz vor dem Start des Projektes im Dezember zusammengestellt. Hierbei hat der Geschäftsführer das Team zusammengestellt und später ein Teil der Koordination mit den Dänischen Partnern durchgeführt. Die Projektführung wurde zum Teil von einer Projekt-Managerin aus Kiel geführt und zum anderen Teil von unserem Technischenleiter aus Berlin, da  die Projekt-Managerin erst später zum Projekt kam. Weiter waren  zwei Werksstudenten /-in als Android Entwickler sowie ein Designerin für die Mockups eingestellt worden. Die ihren Sitz nicht in Berlin hatten und ihre Arbeit im Homeoffice verrichteten. Ab Januar ist ein weiterer Android Entwickler, erst als Teilzeit und später als Vollzeit zum Team in Berlin, hinzugekommen. Wie oben in der Einleitung bereits erwähnt, habe ich erst als Werksstudent und ab Februar im Praktikum als Android-Entwickler das Team unterstützen dürfen.
+\section{Projektablauf}
+\subsection{Beginn/Vorbereitung}
+Projektstart für die App-Entwicklung  war der 3.Dezember. Vor diesem Zeitpunkt kann ich leider nur wenig sagen. Das gesamte Projekt startet aber bereits weit vor diesem Datum, mit der Entwicklung des Sensor und der Api für den zugriff auf Daten durch die Dänischen Partner. Es wurden bereits Studien geplant und erste Auswertungen mit der Hilfe einer Web-App durchgeführt. Zielgruppen wurden analysiert und grobe Anforderungen spezifiziert.
+
+Am 3. Dezember wurde eine erste Telefonkonferenz mit den Dänischer Partnern und der Projektleitung durchgeführt. Ich durfte auch an diesem Gespräch teilnehmen. Hierbei wurde uns die Api-Schnittstelle übergeben und uns erste Technischer Erläuterungen gegeben. Hierbei wurden auch Technische Anforderungen  und eine grobe Zeitplanung angesprochen. Dabei war gerade aus unser Position eine konkrete aussage zu treffen schwer. Da viele Faktoren unklar waren. Wie zum Beispiel Personalstärke, Fähigkeiten und Funktionsweise der Api und Auswertung der Daten.%%Zum Anfang stand auch noch zur diskussion dass wir die Auswertunf der Daten machen.
+Hierbei wurde auch entschieden dass wir nicht die Daten des Sensor zum Server hochladen, sondern dies durch eine bereits vorhandene App erledigen. Um durch den begrenzten Zeitraum bis zum Studienbeginn zu erleichtern. Ein erster Prototyp sollte bereits ende Januar fertig sein und die erste Studie sollt dann ende Februar beginnen.
+
+Am darauffolgenden Mittwoch fand die erst Telefonkonferenz zwischen dem oben beschrieben Entwickler-Team statt. Hierbei wurden die Inhalte der Telefonkonferenz mit den Dänischen Partnern sowie erste Aufgaben besprochen. Da das Team an mehreren Standorten verteilt war, musste sich zunächst auf die Arbeitsmittel/Kommunikationsmittel einigen. Es wurde sich auf eine Wöchentlich Iteration geeinigt, wo jeder seine Arbeitsfortschritte mitteilte und wo es gegebenenfalls Probleme gibt.
+
+Nachfolgend wurde die Arbeit mit folgenden Arbeitsmitteln unterstützt:
+\begin{description}
+	\item[Slack] zur Kommunikation innerhalb des Teams, als auch mit den Dänischen Partnern.
+	\item[Git] als Versionsverwaltungssoftware, was das Arbeiten am selben Code sehr vereinfacht.
+	\item[Tiga] als Projektmanagementsoftware, wo jeder seine Aufgaben zugeteilt bekommen hat und der Arbeitsstand festgehalten wurde. Später konnte hier auch ein Bug-Report eingerichtet werden, wo die Dänischen Partner Fehler hinterlegen konnten.
+	\item[GoTo-Meeting] Für die Wöchentlichen Sprints die als  Telefonkonferenzen durchgeführt wurden.
+	\item[Android-Studio] Eine von Google und IntelliJ  basierende Entwicklungsumgebung.
+\end{description}
+\subsection{Durchführung}
+Wie bereits erwähnt war unser App abhängig von den Daten die wir von der Api bekommen. Daher mussten einige Punkte im Vorfeld geprüft werden:
+\begin{itemize}
+	\item Wie erfolgt die Authentifizierung?
+	\item Wie und wer legt neue Patienten an?
+	\item Welche Daten Stehen uns in der Api zur Verfügung?
+	\item Welche Daten brauchen wir?
+	\item Welche Request müssen gesendet werden, um an die gewünschten Daten zu kommen?
+\end{itemize}
+Hierbei kam es gerade in der Anfangszeit zu Problemen. Da es sich bei der Api um eine Beta Version handelte, weitere Änderungen vorgenommen wurden und die Verfügbarkeit eingeschränkt war.
+Wir haben dafür eine kurze API Dokumentation bekommen und Testanfragen über "Postman" realisiert. Dabei war eine funktionierende Kommunikation mit den Dänischen Partnern wichtig.  
+Nachdem die Punkte geklärt waren konnten erste Mockups und User Sorys erstellt werden. In der APP-Entwicklung konnten dann die ersten Anmeldeseiten erstellt werden, sowie sich gedanken   über einzusetzende Bibliotheken die eine Anfrage und Verarbeitung der Daten von die API Erleichtern sollten.
+Eine in der Anfangsphase unzuverlässige funktionierende API und neue Anforderungen machte ein lokales Speichern der Daten unverzichtbar. 
+Damit war ein erstes Speichern mit key, value werten wie am Anfang eingeführt nicht mehr möglich und es musste auf ein lokale Datenbank umgestellt werden. Weiter Anforderungen wie eine Hintergrundaktualisierung oder Notifikation machte den Einsatz von "LiveData"  (Observer) Notwendig. Dabei wurden die Daten in die Datenbank eingetragen und bei Veränderungen an die Aktuelle View übergeben. Es sollten auch eigen Daten mit Hilfe der API hochgeladen werden. Damit die Nutze bei wechsel ihres Gerätes nicht ständig ihre Persönlichen Daten neu eingeben müssen.
+%todo Weiter Beschreibungen
+\subsection{Abschluss}
+Zwei bs drei Wochen vor dem Start der Studie wurde, bekamen die Kliniker die App ausgehändigt um erste Tests durchzuführen. In einer Wöchentlichen Telefonkonferenz wurden kleine Änderungen,Erweiterungen oder  Probleme besprochen. Die wie bereits beschrieben im Bug-Report festgehalten  und gegebenenfalls in die App intrigiert/behoben wurden. Hierbei kam es auch noch zur Anpassungen an die API, so dass der Anmeldeprozess umgestellt wurden von Password auf Telefon und SMS/Pin. Durch den Einsatz der Bibliotheken war die Umstellung nicht so ein großes Problem wie erst vermutet. Es mussten nur wenige Klassen und UI-Elemente angepasst werden. Es musste geschaut werden ob alle "Notifiakation" funktionieren, ob die Hintergrundsynchronisation mit der externen App funktioniert. Da die Studie in Dänemark durchgeführt wurde musst auch geschaut werden, ob alle Elemente richtig übersetzt wurden. Da in der Studie Patienten auch ihr eigenes Gerät nutzen durften, war es wichtig die App auch auf Tablet auszurichten. Ein großer Teil der Studie nutzte allerdings bereitgestellte Smartphones. Diese Geräte mussten beschafft Konfiguriert und mit einer MDM%todo was ist mdm
+ausgestattet werden, damit spätere Updates schneller eingespielt werden konnten. Hierbei wurden alle erkannten Bugs erfolgreich behoben und die Studie konnte lediglich durch eine kurze Verzögerung durch die Lieferung der Smartphones gestartet werden. Während der Studienphase gab es weitere Technischem Gespräche mit den Dänischen Partnern. Wo lediglich nur noch kleine Bug-Fixes resultierten und uns ein Erfolgreicher Start in den ersten zwei Wochen signalisiert wurde. 
+
+\section{Aufgaben am Projekt}
+%todo Kick off veranstaltung mit verweis auf 2.3.1
+
+%todod zusammenstellen der Arbeitsmittel Git, slack etc.
+
+%todo Einarbeitung in die Api
+
+%todo lokales speichern von deaten da Api  unzuverlässige 
+
+%todo  später änderungen an der Api (LogIn prozess) metadaten hochladen feedbachtime
+
+%todo weiter anforderungen machte liveData notwendig 
+
+%todo Anpassungen an Tablet 
