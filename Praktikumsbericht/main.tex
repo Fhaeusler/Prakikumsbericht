@@ -17,44 +17,21 @@
 \usepackage{amsmath} %Math
 
 %glossar
-\usepackage[toc]{glossaries}
-%\makeglossaries
 
+\usepackage{glossaries}
 \makeglossaries
+%Abkürzungen
+\usepackage{acronym}
 
 
-%Quellcode enbetten
-\usepackage{listings}
-\lstset{numbers=left, numberstyle=\tiny, numbersep=5pt}
-\lstdefinelanguage{JavaScript} {
-	morekeywords={
-		break,const,continue,ürlich noch etwas hübsch formatieren:
-}
-\lstset{
-	frame=tb,
-	framesep=5pt,
-	basicstyle=\footnotesize\ttfamily,
-	showstringspaces=false,
-	keywordstyle=\ttfamily\bfseries\color{CadetBlue},
-	identifierstyle=\ttfamily,
-	stringstyle=\ttfamily\color{OliveGreen},
-%	commentstyle=\color{GrayBlue},
-	rulecolor=\color{Gray},
-%	xleftmargin=5pt,
-	xrightmargin=5pt,
-	aboveskip=\bigskipamount,
-	belowskip=\bigskipamount
-}
-}
-\lstset{language=C,captionpos=b,frame=lrb,breaklines=true}
 
-%Python
+
 
 
 
 %Literaturverzeichnis 
 \newcites{Refs,Urls}{Literaturverzeichnis,Verzeichnis der Webadressen}
-\renewcommand\lstlistlistingname{Quellcodeverzeichnis} % umbennen des QuellcodeVerzeichnis
+
 
 
 \newcommand{\sectionbreak}{\clearpage}
@@ -66,6 +43,7 @@
 %\begin{titlepage}
 %
 %\end{titlepage}
+\include{glossary}
 \maketitle
 
 \tableofcontents
@@ -75,13 +53,12 @@
 %\lstlistoflistings%Quellenverzeichnis
 
 
-
 \include{Einfuehrung}
 \include{Projekt}
 \include{BezugStudium}
 \include{Zusammenfassung}
 \include{Ausblick}
-\include{glossary}
+
 
 
 
