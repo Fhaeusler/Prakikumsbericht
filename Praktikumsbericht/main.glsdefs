@@ -28,19 +28,19 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{datenagnostisch}{}%
+\ifglsentryexists{postman}{}%
 {%
-\gls@defglossaryentry{datenagnostisch}%
+\gls@defglossaryentry{postman}%
 {%
-name={datenagnostisch},%
-sort={datenagnostisch},%
+name={postman},%
+sort={postman},%
 type={main},%
-first={datenagnostisch},%
-firstplural={datenagnostischs},%
-text={datenagnostisch},%
-plural={datenagnostischs},%
-description={Daten unspezifische Übertragung},%
-descriptionplural={Daten unspezifische Übertragung},%
+first={postman},%
+firstplural={postmans},%
+text={postman},%
+plural={postmans},%
+description={Ist ein Werkzueg zum testen von REST API},%
+descriptionplural={Ist ein Werkzueg zum testen von REST API},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -58,19 +58,19 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{mbw}{}%
+\ifglsentryexists{retrofit}{}%
 {%
-\gls@defglossaryentry{mbw}%
+\gls@defglossaryentry{retrofit}%
 {%
-name={MBW},%
-sort={MBW},%
+name={Retrofit},%
+sort={Retrofit},%
 type={main},%
-first={modulare Bauweise\glsspace (MBW)},%
-firstplural={modulare Bauweises\glsspace (MBWs)},%
-text={MBW},%
-plural={MBWs},%
-description={Modulare Bauweise},%
-descriptionplural={modulare Bauweise\acrpluralsuffix },%
+first={Retrofit},%
+firstplural={Retrofits},%
+text={Retrofit},%
+plural={Retrofits},%
+description={Ist eine Bibliothek zur Verarbeitung von API Anfragen},%
+descriptionplural={Ist eine Bibliothek zur Verarbeitung von API Anfragen},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -79,10 +79,70 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={modulare Bauweise},%
-longplural={modulare Bauweises},%
-short={MBW},%
-shortplural={MBWs},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{room}{}%
+{%
+\gls@defglossaryentry{room}%
+{%
+name={Room},%
+sort={Room},%
+type={main},%
+first={Room},%
+firstplural={Rooms},%
+text={Room},%
+plural={Rooms},%
+description={Ist eine Bibliothek für eine lokale Relationale Datenbank mit der Unterstütung als OR-Mapper},%
+descriptionplural={Ist eine Bibliothek für eine lokale Relationale Datenbank mit der Unterstütung als OR-Mapper},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{git}{}%
+{%
+\gls@defglossaryentry{git}%
+{%
+name={GIT},%
+sort={GIT},%
+type={main},%
+first={GIT},%
+firstplural={GITs},%
+text={GIT},%
+plural={GITs},%
+description={Ist ein freis software zur verteilten Versionsverwaltung von Dateien},%
+descriptionplural={Ist ein freis software zur verteilten Versionsverwaltung von Dateien},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
 counter={page},%
 parent={},%
 %

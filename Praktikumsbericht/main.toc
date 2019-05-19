@@ -8,9 +8,8 @@
 \contentsline {section}{\numberline {2.2}Teammitglieder und deren Aufgaben}{5}{section.2.2}
 \contentsline {section}{\numberline {2.3}Projektablauf}{6}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Beginn/Vorbereitung}{6}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Durchf\IeC {\"u}hrung}{6}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Durchf\IeC {\"u}hrung}{7}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Abschluss}{7}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}Aufgaben am Projekt}{8}{section.2.4}
-\contentsline {chapter}{\numberline {3}Bezug zum Studium}{9}{chapter.3}
-\contentsline {chapter}{\numberline {4}Zusammenfassung}{10}{chapter.4}
-\contentsline {chapter}{\numberline {5}Ausblick}{11}{chapter.5}
+\contentsline {chapter}{\numberline {3}Bezug zum Studium}{10}{chapter.3}
+\contentsline {chapter}{\numberline {4}Ausblick}{11}{chapter.4}
