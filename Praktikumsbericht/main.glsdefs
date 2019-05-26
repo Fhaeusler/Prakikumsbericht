@@ -1,33 +1,3 @@
-\ifglsentryexists{postman}{}%
-{%
-\gls@defglossaryentry{postman}%
-{%
-name={postman},%
-sort={postman},%
-type={main},%
-first={postman},%
-firstplural={postmans},%
-text={postman},%
-plural={postmans},%
-description={Ist ein Werkzueg zum testen von REST API},%
-descriptionplural={Ist ein Werkzueg zum testen von REST API},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-}%
 \ifglsentryexists{retrofit}{}%
 {%
 \gls@defglossaryentry{retrofit}%
@@ -58,19 +28,19 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{room}{}%
+\ifglsentryexists{git}{}%
 {%
-\gls@defglossaryentry{room}%
+\gls@defglossaryentry{git}%
 {%
-name={Room},%
-sort={Room},%
+name={GIT},%
+sort={GIT},%
 type={main},%
-first={Room},%
-firstplural={Rooms},%
-text={Room},%
-plural={Rooms},%
-description={Ist eine Bibliothek für eine lokale Relationale Datenbank mit der Unterstütung als OR-Mapper},%
-descriptionplural={Ist eine Bibliothek für eine lokale Relationale Datenbank mit der Unterstütung als OR-Mapper},%
+first={GIT},%
+firstplural={GITs},%
+text={GIT},%
+plural={GITs},%
+description={Ist ein freis software zur verteilten Versionsverwaltung von Dateien},%
+descriptionplural={Ist ein freis software zur verteilten Versionsverwaltung von Dateien},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -88,19 +58,139 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{git}{}%
+\ifglsentryexists{room}{}%
 {%
-\gls@defglossaryentry{git}%
+\gls@defglossaryentry{room}%
 {%
-name={GIT},%
-sort={GIT},%
+name={Room},%
+sort={Room},%
 type={main},%
-first={GIT},%
-firstplural={GITs},%
-text={GIT},%
-plural={GITs},%
-description={Ist ein freis software zur verteilten Versionsverwaltung von Dateien},%
-descriptionplural={Ist ein freis software zur verteilten Versionsverwaltung von Dateien},%
+first={Room},%
+firstplural={Rooms},%
+text={Room},%
+plural={Rooms},%
+description={Ist eine Bibliothek für eine lokale Relationale Datenbank und OR-Mapper},%
+descriptionplural={Ist eine Bibliothek für eine lokale Relationale Datenbank und OR-Mapper},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{live}{}%
+{%
+\gls@defglossaryentry{live}%
+{%
+name={LiveData},%
+sort={LiveData},%
+type={main},%
+first={LiveData},%
+firstplural={LiveDatas},%
+text={LiveData},%
+plural={LiveDatas},%
+description={Live Data folgt dem Beobachter-Muster. Ist eine Klasse die Daten beinhaltet und mit einem gegebenen Lebenszyklus diese Beobachtet. Der Lebenszyklus Besitzer wird nur im Status STARTED oder RESUMED bei Veränderungen informiert.},%
+descriptionplural={Live Data folgt dem Beobachter-Muster. Ist eine Klasse die Daten beinhaltet und mit einem gegebenen Lebenszyklus diese Beobachtet. Der Lebenszyklus Besitzer wird nur im Status STARTED oder RESUMED bei Veränderungen informiert.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{bug}{}%
+{%
+\gls@defglossaryentry{bug}%
+{%
+name={Bug},%
+sort={Bug},%
+type={main},%
+first={Bug},%
+firstplural={Bugs},%
+text={Bug},%
+plural={Bugs},%
+description={Fehler in einer Software},%
+descriptionplural={Fehler in einer Software},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{postman}{}%
+{%
+\gls@defglossaryentry{postman}%
+{%
+name={Postman},%
+sort={Postman},%
+type={main},%
+first={Postman},%
+firstplural={Postmans},%
+text={Postman},%
+plural={Postmans},%
+description={Ist ein Werkzeug zum Testen von REST API},%
+descriptionplural={Ist ein Werkzeug zum Testen von REST API},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sharedpreferences}{}%
+{%
+\gls@defglossaryentry{sharedpreferences}%
+{%
+name={SharedPreferences},%
+sort={SharedPreferences},%
+type={main},%
+first={SharedPreferences},%
+firstplural={SharedPreferencess},%
+text={SharedPreferences},%
+plural={SharedPreferencess},%
+description={Persistente Speicherung von Daten in eine XML Datei als Key, value werte},%
+descriptionplural={Persistente Speicherung von Daten in eine XML Datei als Key, value werte},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
